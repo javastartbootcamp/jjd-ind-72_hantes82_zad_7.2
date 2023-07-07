@@ -10,6 +10,8 @@ public class Main {
     public static void main(String[] args) {
         sortAndPrintInfo(1, 2, 3);
         sortAndPrintInfo(5, 2, 1);
+        sortAndPrintInfo(5, 4, 3, 2, 1);
+        sortAndPrintInfo(5, 2, 3, 1, 4);
     }
 
     private static void sortAndPrintInfo(int... arrayToSort) {
